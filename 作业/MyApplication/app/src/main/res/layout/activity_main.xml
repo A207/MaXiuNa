@@ -1,0 +1,53 @@
+
+<LinearLayout
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:orientation="vertical"
+    android:background="@mipmap/fat"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<EditText android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/height"
+    android:hint="请输入您的身高：（m）"
+    android:layout_gravity="center"
+    android:layout_marginTop="40dp"/>
+
+<EditText
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/weight"
+    android:hint="请输入您的体重：（kg）"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center"/>
+
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/BMIbutton"
+    android:textColor="#FF000F"
+    android:text="BMI计算结果"
+    android:layout_gravity="center"
+    android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/show"
+        android:textColor="#0000F0"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关于BMI"
+        android:layout_marginTop="40dp"
+        android:textColor="#FF000F"
+        android:id="@+id/BMIbutton1"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
